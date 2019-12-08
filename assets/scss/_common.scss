@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-main;
+  font-size: $font-size;
+}
+
+body {
+  // TODO: код для работы меню
+}
+
+a {
+  transition: color 0.5s;
+  text-decoration: none;
+
+  color: $color-primary;
+}
+
+.container {
+  display: grid;
+
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-right: $gap;
+  padding-left: $gap;
+}
